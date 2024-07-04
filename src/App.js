@@ -19,7 +19,7 @@ function App() {
           <div className="tab-pane active">
             <header className="App-header">
               <h1>Welcome to the Potato Page!</h1>
-              <img src="/images/potato_cute.jpg" alt="Potatoes with faces" className="potato-image" />
+              <img src={`${process.env.PUBLIC_URL}/images/potato_cute.jpg`} alt="Potatoes with faces" className="potato-image" />
               <h2>Get those potatoes!</h2>
               <CustomButton onClick={() => setActiveTab('newpage')} label="Go to Potato" />
             </header>
