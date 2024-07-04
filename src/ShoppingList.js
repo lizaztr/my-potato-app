@@ -4,7 +4,7 @@ import './ShoppingList.css';
 function ShoppingList() {
   const items = [
     { name: 'Potato', image: 'https://i.imgur.com/dRnvRZZ.jpeg', price: 1.0 },
-    { name: 'Potatoes', image: '/images/potatoes.jpg', price: 2.5 },
+    { name: 'Potatoes', image: `${process.env.PUBLIC_URL}/images/potatoes.jpg`, price: 2.5 },
     { name: 'Potato Fries', image: 'https://i.imgur.com/6RZcRVj.jpeg', price: 3.0 },
     { name: 'Potato Chips', image: 'https://i.imgur.com/t4fhTWf.jpeg', price: 1.5 }
   ];
