@@ -1,0 +1,22 @@
+/* src/CustomButton.css */
+.custom-button {
+    background-color: #af4caf; /* Green background */
+    border: none;  /* Remove borders */
+    color: white;  /* White text */
+    padding: 15px 32px;  /* Some padding */
+    text-align: center;  /* Centered text */
+    text-decoration: none;  /* Remove underline */
+    display: inline-block;  /* Get it to display inline */
+    font-size: 16px;  /* Increase font size */
+    margin: 4px 2px;  /* Add some margin */
+    cursor: pointer;  /* Pointer/hand icon */
+    border-radius: 12px;  /* Rounded corners */
+    transition-duration: 0.4s;  /* Transition effects */
+  }
+  
+  .custom-button:hover {
+    background-color: rgb(10, 96, 235); /* White background */
+    color: black;  /* Black text */
+    border: 2px solid #4CAF50; /* Green border */
+  }
+  
