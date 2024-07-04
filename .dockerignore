@@ -1,24 +1,45 @@
-**/.classpath
-**/.dockerignore
-**/.env
-**/.git
-**/.gitignore
-**/.project
-**/.settings
-**/.toolstarget
-**/.vs
-**/.vscode
-**/*.*proj.user
-**/*.dbmdl
-**/*.jfm
-**/charts
-**/docker-compose*
-**/compose*
-**/Dockerfile*
-**/node_modules
-**/npm-debug.log
-**/obj
-**/secrets.dev.yaml
-**/values.dev.yaml
+# Ignore project-specific files and directories
+.classpath
+.dockerignore
+.env
+.git
+.gitignore
+.project
+.settings
+.toolstarget
+.vs
+.vscode
+
+# Ignore user-specific project settings
+*.*proj.user
+
+# Ignore database model files
+*.dbmdl
+*.jfm
+
+# Ignore Helm chart files
+charts
+
+# Ignore Docker Compose files
+docker-compose*
+compose*
+
+# Ignore Dockerfiles (except the main one)
+Dockerfile*
+
+# Ignore node_modules directory
+node_modules
+
+# Ignore npm debug log
+npm-debug.log
+
+# Ignore build output directories
+obj
+
+# Ignore Kubernetes secrets and values files
+secrets.dev.yaml
+values.dev.yaml
+
+# Ignore root-level license and readme files (optional)
 LICENSE
 README.md
