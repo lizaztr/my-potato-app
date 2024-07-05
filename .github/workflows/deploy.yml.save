@@ -1,0 +1,5 @@
+nano .github/workflows/deploy.yml
+git add .github/workflows/deploy.yml
+
+git commit -m "Add GitHub Actions workflow for deployment"
+
