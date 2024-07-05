@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d4cdccfd9df8c26e7c5b10db63a2f108",
+    "revision": "6efbbb39699e6535893f2927798f4d81",
     "url": "/my-potato-app/index.html"
   },
   {
-    "revision": "00bcd3cd1810a825da79",
-    "url": "/my-potato-app/static/css/main.66161df4.chunk.css"
+    "revision": "ba2b81132039ef174fdf",
+    "url": "/my-potato-app/static/css/main.99746af3.chunk.css"
   },
   {
     "revision": "7471c5195b2b3f2ec9ea",
     "url": "/my-potato-app/static/js/2.763431a1.chunk.js"
   },
   {
-    "revision": "00bcd3cd1810a825da79",
+    "revision": "ba2b81132039ef174fdf",
     "url": "/my-potato-app/static/js/main.dfa54705.chunk.js"
   },
   {
